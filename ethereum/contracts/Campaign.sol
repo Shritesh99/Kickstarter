@@ -2,7 +2,7 @@ pragma solidity ^0.4.17;
 
 contract CampaignFactory{
     address[] public deployedCampaigns;
-    function crateCampaign(uint mainimum) public{
+    function crateCampaign(uint mainimum) public {
         address newCampaign = new Campaign(mainimum, msg.sender);
         deployedCampaigns.push(newCampaign);
     }
@@ -67,5 +67,17 @@ contract Campaign {
         require(request.approvalCount > (approversCount / 2));
         request.recipiant.transfer(request.value);
         request.complete = true;
+    }
+    function getSummary() public view returns (uint, uint, uint, uint, address) {
+      return(
+         minimumContibution,
+         manager.balance,
+         requests.length,
+         approversCount,
+         manager
+      );
+    }
+    function getRequestCount() public view returns (uint) {
+        return requests.length;
     }
 }
