@@ -17,7 +17,8 @@ class CampaignIndex extends Component{
                     <a>View Campaign</a>
                 </Link>,
                 fluid: true,
-                color: 'red'
+                color: 'red',
+                style: { overflowWrap: 'break-word' }
             };
         });
         return <Card.Group items={items}/>;
