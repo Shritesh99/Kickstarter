@@ -10,5 +10,5 @@ const routes = require('./routes');
 const handler = routes.getRequestHandler(app);
 
 app.prepare().then(() => {
-    createServer(handler).listen('kickstarer.herokuapp.com', err => {if(err) throw err});
+    createServer(handler).listen(3000,'kickstarer.herokuapp.com', err => {if(err) throw err});
 });
