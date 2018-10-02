@@ -9,7 +9,7 @@ fs.removeSync(buildPath);
 const campaignPath = path.resolve(__dirname, 'contracts', 'Campaign.sol');
 const source = fs.readFileSync(campaignPath, 'utf8');
 const output = solc.compile(source, 1).contracts;
-
+console.log(output);
 fs.ensureDirSync(buildPath);
 
 for(let contract in output){

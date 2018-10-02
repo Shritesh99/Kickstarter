@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7975c6f-51d4-4abb-b059-40b6c45ac9e5" name="Default Changelist" comment="Fix typo in Server.js">
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    <list default="true" id="d7975c6f-51d4-4abb-b059-40b6c45ac9e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/build/Campaign.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/build/Campaign.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/build/CampaignFactory.json" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/build/CampaignFactory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,37 +35,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ADDRESS" value="8" />
-          <entry key="js" value="67" />
+          <entry key="js" value="68" />
           <entry key="json" value="16" />
           <entry key="lock" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="sol" value="6" />
+          <entry key="sol" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="67" />
+          <entry key="JavaScript" value="68" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Solidity file" value="6" />
+          <entry key="Solidity file" value="7" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="7621" />
+          <entry key="js" value="7664" />
           <entry key="json" value="61" />
-          <entry key="sol" value="260" />
+          <entry key="sol" value="264" />
           <entry key="txt" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="61" />
-          <entry key="JavaScript" value="7621" />
+          <entry key="JavaScript" value="7664" />
           <entry key="PLAIN_TEXT" value="148" />
-          <entry key="Solidity file" value="260" />
+          <entry key="Solidity file" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -84,11 +88,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethereum/contracts/Campaign.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ethereum/compile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -117,9 +139,7 @@
         <option value="$PROJECT_DIR$/components/Header.js" />
         <option value="$PROJECT_DIR$/pages/show.js" />
         <option value="$PROJECT_DIR$/pages/campaigns/new.js" />
-        <option value="$PROJECT_DIR$/ethereum/compile.js" />
         <option value="$PROJECT_DIR$/ethereum/deploy.js" />
-        <option value="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" />
         <option value="$PROJECT_DIR$/ADDRESS" />
         <option value="$PROJECT_DIR$/ethereum/factory.js" />
         <option value="$PROJECT_DIR$/ethereum/campaign.js" />
@@ -132,6 +152,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/ethereum/contracts/Campaign.sol" />
+        <option value="$PROJECT_DIR$/ethereum/compile.js" />
       </list>
     </option>
   </component>
@@ -194,7 +216,13 @@
             <path>
               <item name="Kickstart" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="ethereum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kickstart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="ethereum" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +357,7 @@
       <workItem from="1538421054548" duration="4748000" />
       <workItem from="1538426368682" duration="1053000" />
       <workItem from="1538466783124" duration="595000" />
-      <workItem from="1538476447999" duration="18222000" />
+      <workItem from="1538476447999" duration="18611000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Testing and Deployed to 0x8c2F855e9eB04aeB55ab5f90c9cCfE27020FD414">
       <created>1533983248988</created>
@@ -415,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538515863961</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix typo in Server.js">
+      <created>1538516344657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1538516344657</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -445,7 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55642000" />
+    <option name="totallyTimeSpent" value="56031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,12 +493,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.32611832" />
@@ -474,7 +509,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.32611832" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32611832" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32611832" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -592,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ethereum/compile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -623,13 +651,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ethereum/contracts/Campaign.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="79" column="30" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -736,8 +757,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethereum/contracts/Campaign.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethereum/compile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
