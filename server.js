@@ -10,8 +10,8 @@ const routes = require('./routes');
 const handler = routes.getRequestHandler(app);
 
 app.prepare().then(() => {
-    createServer(handler).listen(3000, err => {
-       if(err) throw err;
-       console.log('Ready on localhost:3000');
+    createServer(handler).listern({
+        host: 'https://kickstarer.herokuapp.com',
+        function: err => { if(err) throw err }
     });
 });
